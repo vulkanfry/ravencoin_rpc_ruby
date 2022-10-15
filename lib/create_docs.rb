@@ -3,6 +3,7 @@
 require 'attr_extras'
 require 'json'
 
+# This class create docs from docs.json
 class CreateDocs
   pattr_initialize %i[]
 
