@@ -8,5 +8,6 @@ require 'ravencoin_rpc/client/fetcher'
 require 'ravencoin_rpc/exceptions'
 require 'ravencoin_rpc/exceptions/not_found_module'
 
+# This is base module
 module RavencoinRpc
 end

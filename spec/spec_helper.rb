@@ -2,6 +2,8 @@
 
 require 'bundler/setup'
 require 'ravencoin_rpc'
+require 'pry-byebug'
+require 'minitest/mock'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

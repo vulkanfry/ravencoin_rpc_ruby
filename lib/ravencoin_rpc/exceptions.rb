@@ -1,4 +1,7 @@
 # frozen_string_literal: true
 
-module RavencoinRpc::Exceptions
+module RavencoinRpc
+  # This is base exceptions class
+  module Exceptions
+  end
 end
