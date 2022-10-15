@@ -9,7 +9,7 @@ A package that will help you do RPC calls from Ruby / Rails / etc to your Raven 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ravencoin_rpc'
+gem 'ravencoin_rpc_ruby'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ravencoin_rpc
+    $ gem install ravencoin_rpc_ruby
 
 ## Usage
 
