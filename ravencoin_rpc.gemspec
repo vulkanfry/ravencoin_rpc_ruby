@@ -3,7 +3,7 @@
 require_relative 'lib/ravencoin_rpc/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'ravencoin_rpc'
+  spec.name          = 'ravencoin_rpc_ruby'
   spec.version       = RavencoinRpc::VERSION
   spec.authors       = ['Vladimir Sidorenko']
   spec.email         = ['vulkan.u4u1@gmail.com']
