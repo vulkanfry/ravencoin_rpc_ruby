@@ -1,5 +1,5 @@
 # Ravencoin remote procedure calls / methods
-[Home](README.md)
+##[Home](README.md)
 ## getaddressbalance 
 getaddressbalance
 
