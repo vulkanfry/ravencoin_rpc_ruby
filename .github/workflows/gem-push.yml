@@ -3,8 +3,22 @@ name: Ruby Gem
 on:
   push:
     branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Ruby 2.7
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+    - name: Run tests
+      run: bundle exec rspec
+
   build:
     name: Build + Publish
     runs-on: ubuntu-latest
