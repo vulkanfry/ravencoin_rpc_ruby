@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/ravencoin_rpc_ruby.svg)](https://badge.fury.io/rb/ravencoin_rpc_ruby)
+
 # RavencoinRpcRuby
 
 A package that will help you do RPC calls from Ruby / Rails / etc to your Raven core node.
