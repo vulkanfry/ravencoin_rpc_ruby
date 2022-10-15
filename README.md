@@ -1,3 +1,4 @@
+
 [![Gem Version](https://badge.fury.io/rb/ravencoin_rpc_ruby.svg)](https://badge.fury.io/rb/ravencoin_rpc_ruby)
 
 # RavencoinRpcRuby
