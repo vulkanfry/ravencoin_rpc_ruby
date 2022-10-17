@@ -23,6 +23,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require('ravencoin_rpc')
+
 @client ||= RavencoinRpc::Client.new(url: 'raven_node_rpc_url:port', login: 'login', password: 'password')
 
 # Get difficulty
