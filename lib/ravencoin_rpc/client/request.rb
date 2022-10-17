@@ -29,7 +29,7 @@ module RavencoinRpc
       end
 
       def docs
-        @docs ||= JSON.parse(File.open(Dir.pwd + '/docs.json').read)
+        @docs ||= JSON.parse(File.open(Gem::Specification.find_by_name("ravencoin_rpc_ruby").gem_dir + '/docs.json').read)
       end
 
       def error

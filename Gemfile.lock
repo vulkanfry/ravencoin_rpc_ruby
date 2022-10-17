@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ravencoin_rpc_ruby (0.3.0)
+    ravencoin_rpc_ruby (0.3.1)
       activesupport (~> 6.1.7)
       attr_extras (~> 6.2)
       faraday (~> 1.3)
