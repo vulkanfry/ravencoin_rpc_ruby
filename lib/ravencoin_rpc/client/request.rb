@@ -29,7 +29,7 @@ module RavencoinRpc
       end
 
       def docs
-        @docs ||= JSON.parse(File.open('docs.json').read)
+        @docs ||= JSON.parse(File.open(Dir.pwd + '/docs.json').read)
       end
 
       def error

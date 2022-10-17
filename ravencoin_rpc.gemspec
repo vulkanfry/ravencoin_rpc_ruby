@@ -23,6 +23,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'faraday_middleware', '~> 1.0'
   spec.add_runtime_dependency 'json'
   spec.add_runtime_dependency 'ostruct'
+  spec.add_development_dependency "pry-byebug"
+  spec.add_development_dependency "rubocop"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
